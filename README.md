@@ -1,2 +1,2 @@
 # Case-Converter
-DEMO https://alena2020.github.io/Case-Converter/
+DEMO https://godoxyfair.github.io/Case-Converter/
