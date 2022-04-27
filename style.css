@@ -1,0 +1,28 @@
+body {
+    background-color: gray;
+}
+.title {
+    font-size: 20pt;
+    height: 50px;
+    width: 650px;
+    border-color: black;
+    background-color: gold;
+}
+textarea {
+    font-size: 18pt;
+}
+button {
+    height: auto;
+    width: auto;
+    background-color: gold;
+    font-size: 12pt;
+}
+.button-case {
+    border: 1px solid black;
+    display: flex;
+    width: 650px;
+}
+.flex-but {
+    margin: 5px;
+    flex-grow: 1;
+}
