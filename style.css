@@ -1,28 +1,41 @@
 body {
     background-color: gray;
 }
+* {
+    margin: 0;
+    padding: 0;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .title {
     font-size: 20pt;
     height: 50px;
     width: 650px;
     border-color: black;
     background-color: gold;
+    margin-top: 20px;
 }
 textarea {
+    margin-top: 10px;
     font-size: 18pt;
 }
 button {
-    height: auto;
-    width: auto;
     background-color: gold;
     font-size: 12pt;
 }
 .button-case {
-    border: 1px solid black;
     display: flex;
     width: 650px;
 }
 .flex-but {
-    margin: 5px;
-    flex-grow: 1;
+    padding: 5px;
+    margin: 10px;
+}
+
+.flex-but:hover {
+    box-shadow: 0 0 10px gold;
 }
